@@ -19,5 +19,8 @@ git push -u origin main
 # Staging branch
 When pushing to the repository, always use the staging branch unless specified otherwise.
 
+# Main Branch
+Main branch is where the production code is stored. Do not push to the main branch unless the code is tested and ready for production.
+
 # Git Commit and Push
 When commiting fill the description with the changes that have been made. (in Bahasa Sunda)

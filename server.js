@@ -24,9 +24,6 @@ if (process.env.MONGODB_URI) {
 const indexRouter = require('./app/routes/index');
 app.use('/api', indexRouter);
 
-app.get('/', (req, res) => {
-    res.send('Welcome to Random Game Test API');
-});
 
 // 404 Handling
 app.use((req, res) => {
